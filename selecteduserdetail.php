@@ -125,7 +125,7 @@ if(isset($_POST['submit']))
             ?>
             <form method="post" name="tcredit" class="tabletext" ><br>
         <div>
-            <table class="table table-striped table-condensed table-bordered">
+            <table class="table table-striped table-dark table-bordered">
                 <tr>
                     <th class="text-center">Id</th>
                     <th class="text-center">Name</th>

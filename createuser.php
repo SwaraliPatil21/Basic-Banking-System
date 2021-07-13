@@ -20,7 +20,7 @@
     $sql="insert into customers(name,email,balance) values('{$name}','{$email}','{$balance}')";
     $result=mysqli_query($conn,$sql);
     if($result){
-               echo "<script> alert('Hurray! User created');
+               echo "<script> alert('Hurray! Customer created');
                                window.location='transfermoney.php';
                      </script>";
                     
@@ -71,6 +71,7 @@
     </div>
   </div>
 </div>
+ <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10.14.0/dist/sweetalert2.all.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 </body>

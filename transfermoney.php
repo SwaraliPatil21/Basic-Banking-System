@@ -36,7 +36,7 @@
             <div class="row">
                 <div class="col">
                     <div class="table-responsive-sm">
-                    <table class="table table-hover table-sm table-striped table-condensed table-bordered">
+                    <table class="table table-hover table-sm table-striped table-dark table-bordered">
                         <thead>
                             <tr>
                             <th scope="col" class="text-center py-2">Id</th>

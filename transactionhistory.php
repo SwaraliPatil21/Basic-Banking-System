@@ -20,7 +20,7 @@
         
        <br>
        <div class="table-responsive-sm">
-    <table class="table table-hover table-striped table-condensed table-bordered">
+    <table class="table table-hover table-striped table-dark table-bordered">
         <thead>
             <tr>
                 <th class="text-center">S.No.</th>
